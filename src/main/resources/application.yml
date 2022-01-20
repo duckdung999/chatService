@@ -1,0 +1,16 @@
+#spring:
+#  profiles:
+#    active: local
+#  devtools:
+#    livereload:
+#      enabled: true
+#    restart:
+#      enabled: false
+#  freemarker:
+#    cache: false
+spring:
+  profiles:
+    active: local
+  redis:
+    host: localhost
+    port: 6379
